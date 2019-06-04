@@ -13,10 +13,10 @@ def array_with_two_elements()
 
 end
 
-def first_element()
+def first_element(taylor_swift)
   @taylor_swift = ["Welcome to New York", "Blank Space", "Style", "Out of The Woods"]
   first_element =   @taylor_swift.first
-    return first_element
+    return first_element(taylor_swift)
 end
   
 
