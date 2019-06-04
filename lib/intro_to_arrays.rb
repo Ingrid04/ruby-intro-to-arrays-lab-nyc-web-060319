@@ -15,20 +15,21 @@ end
 
 def first_element()
   @taylor_swift = ["Welcome to New York", "Blank Space", "Style", "Out of The Woods"]
-  @taylor_swift[0]
+  first_element = @taylor_swift[0]
     return @taylor_swift[0]
 end
   
 
 def my_third_element()
    @taylor_swift = ["Welcome to New York", "Blank Space", "Style", "Out of The Woods"]
-     return my_third_element[2]
+   my_third_element = @taylor_swift[2]
+     return my_third_element
 end
 
 def my_last_element()
   @taylor_swift = ["Welcome to New York", "Blank Space", "Style", "Out of The Woods"]
-  @taylor_swift[3]
-     return my_last_element[3]
+  my_last_element = @taylor_swift[-1]
+     return my_last_element
 end
 
 def first_element_with_array_methods()
